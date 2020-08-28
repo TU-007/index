@@ -1,0 +1,35 @@
+* { margin: 0px; padding: 0px; font-family: "microsoft yahei"; font-size: 14px;}
+a { text-decoration: none;}
+li { list-style: none;}
+.icon { width: 30px; height: 30px; vertical-align: -0.15em; fill: currentColor; overflow: hidden;}
+.play { width: 800px; height: auto; background: no-repeat center center; background-size: auto; margin: 0 auto; position: relative;}
+video { width: 100%; height: 100%;}
+.console { width: 100%; height: 50px; background: rgba(0, 0, 0, 0.5); position: absolute; left: 0px; bottom: 3px;}
+.pro { width: 100%; height: 8px; background: rgba(177, 177, 177, 0.5); overflow: hidden;}
+.pro-p1 { width: 0%; height: 8px; background: rgba(255, 255, 255, 0.5); }
+.pro-p2 { width: 0%; height: 8px; background: rgba(0, 255, 0, 0.5); position: absolute; left: 0px; top: 0px;}
+.pro-p3 { width: 100%; height: 12px; position: absolute; left: 0px; top: -2px;}
+.pro-p3:hover { cursor: pointer;}
+.plan { display: none; width: 65px; height: 30px; line-height: 30px; text-align: center; background: rgba(177, 177, 177, 0.5); color: #FFF; border-radius: 8px; position: absolute; top: -40px;}
+.pro-d1 { width: 12px; height: 12px; position: absolute; left: 0px; top: -2px; background: #FFF; border-radius: 12px;}
+.pro-d1:hover { border: 4px solid rgba(0, 255, 0, 0.3); position: absolute; left: 0; top: -6px;}
+.sta { display: inline-block; width: 40px; height: 40px; float: left; color: #FFF; overflow: hidden; border-right: 1px solid #FFF;}
+.sta:hover { color: rgba(0, 255, 0, 0.8);}
+.sta > .icon { position: relative; left: 5px; top: 5px;}
+.duration { float: left; line-height: 40px; padding: 0 10px; position: relative; color: #FFF;}
+.ful {  display: inline-block;  width: 40px; border-left: 1px solid #FFF; height: 40px; float: right; color: #FFF; }
+.ful-p1 { display: none; width: 65px; text-align: center; line-height: 30px; height: 30px; border-radius: 8px; background: rgba(177, 177, 177, 0.5) ; position: absolute; right: 10px; top: -40px;}
+.ful:hover>.ful-p1{ display: block;}
+.ful > .icon { position: relative; left: 5px; top: 5px;}
+.ful > .icon:hover ,.sound-d1:hover { color: rgba(0, 255, 0, 0.8);}
+.sound { width: 120px; height: 40px;  border-left: 1px solid #FFF; position: relative; float: right; right: 10px;}
+.sound-d1 { color: #FFF; }
+.sound-d1 > .icon { width: 25px; height: 25px; position: relative; left: 10px; top: 7px;}
+.sound-pro { width: 70px; height: 8px; position: relative; right: 5px; top: 16px; float: right;}
+.sound-pro-p1 { width: 100%; height: 8px; background: rgba(255, 255, 255, 0.5); border-radius: 8px; position: absolute;}
+.sound-pro-p2 { width: 0%; height: 8px; background: rgba(0, 255, 0, 0.8); border-radius: 8px; position: relative;}
+.sound-pro-p3 { width: 100%; height: 10px; position: absolute; left: 0px; top: -1px;}
+.sound-pro-p3:hover { cursor: pointer;}
+.sound-pro-d1 {  width: 10px; height: 10px; position: absolute; left: 0px; top: -1px; background: #FFF; border-radius: 10px;}
+.sound-pro-d1:hover { border: 2px solid rgba(0, 255, 0, 0.3); position: absolute; left: calc(50% - 6px); top: -3px;}
+.prompt { display: none; width: 100%; height: 20px; text-align: center; line-height: 20px; color: #FFF; border-radius: 5px; background: rgba(177, 177, 177, 0.5); position: absolute; left: 0px; top: -30px;}

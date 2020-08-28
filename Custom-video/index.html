@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ondragstart=" retuen false">
+	<head>
+		<meta charset="utf-8">
+		<title>喜羊羊与灰太狼</title>
+		<link rel="stylesheet" href="css/css.css">
+		<script src="js/iconfont.js"></script>
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<script src="js/video.js"></script>
+	</head>
+	<body>
+		<div class="play">
+			<video>
+				<source src="flie/vi.mp4" type="audio/mp4"></source>
+			</video>
+			<div class="console">
+				<!-- 进度条 -->
+				<div class="pro">
+					<p class="pro-p1"></p>
+					<p class="pro-p2"></p>
+					<div class="pro-d1"></div>
+					<p class="plan"></p>
+					<p class="pro-p3"></p>
+				</div>
+				<!-- 播放-暂停 -->
+				<a class="sta" href="javascript:;" title="播放">
+					<svg class="icon" aria-hidden="true">
+					  <use xlink:href="#icon-bofang"></use>
+					</svg>
+				</a>
+				<p class=""></p>
+				<!-- 总时长 -->
+				<p class="duration" title="时长">
+					<span class="duration-s1">00:00</span>&nbsp;/
+					<span class="duration-s2">00:00</span>
+				</p>
+				<!-- 全屏 -->
+				<a class="ful" href="javascript:;">
+					<svg class="icon" aria-hidden="true">
+					  <use xlink:href="#icon-008pingmufangda"></use>
+					</svg>
+					<p class="ful-p1">点击全屏</p>
+				</a>
+				<!-- 音量 -->
+				<div class="sound">
+					<a  class="sound-d1" href="javascript:;">
+						<svg class="icon" aria-hidden="true">
+						  <use xlink:href="#icon-yinliang"></use>
+						</svg>
+					</a>
+					<div class="sound-pro">
+						<p class="sound-pro-p1"></p>
+						<p class="sound-pro-p2"></p>
+						<div class="sound-pro-d1"></div>
+						<p class="prompt"></p>
+						<p class="sound-pro-p3"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
